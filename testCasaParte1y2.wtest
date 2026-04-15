@@ -1,0 +1,9 @@
+import casaParte1y2.*
+
+describe "casa de pepe y julian cuenta corriente" {
+    test "Hacer un gasto de 200. El saldo queda en 100. El total gastado del mes es 200" {
+      cuentaCorriente.depositarEnCuenta(300)
+      casa.cuentaActual(cuentaCorriente)
+      assert.equals(expected, actual)
+    }
+}
